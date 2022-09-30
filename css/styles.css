@@ -1,0 +1,17 @@
+@import url(../css/reset.css);
+@import url(../css/typography.css);
+
+*{
+    box-sizing: border-box;
+    
+}
+
+.clear-fix{
+    clear: both;
+}
+
+.clear-fix::after{
+    display: block;
+    content: "";
+    clear: both;
+}
